@@ -1,7 +1,31 @@
-.navi1{
+.unic {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* logo */
+nav .unic span{
+    color: #FD6E0A;
+}
+
+nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 70px;
+}
+.prants1 li a{
+     text-decoration: none;
+    color: black;
+    font-weight: 400;
 }
 .prants1 li{
-     text-decoration: none;
-     
+    list-style: none;
+    margin-right: 50px;
+}
+nav .prants1{
+    display: flex;
 }
